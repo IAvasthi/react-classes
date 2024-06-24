@@ -1,0 +1,184 @@
+﻿Diagnose log at 2024-06-24T10:10:08Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.5.0+d34930736e131ad80e5690e5634ced1808aff3e2
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 22631)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\ishan
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=ISHANAVASTHI
+GIT_TRACE2_PARENT_SID=6d90c9fb-4343-4244-a095-86d167c46161
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\ishan\OneDrive
+SESSIONNAME=Console
+WebStorm=C:\Program Files\JetBrains\WebStorm 2023.3\bin;
+TMP=C:\Users\ishan\AppData\Local\Temp
+PROCESSOR_REVISION=9a03
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\ishan\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\ishan\AppData\Local
+MSYSTEM=MINGW64
+TERM=xterm-256color
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAL3EX0sxp50SVhlaQBxhQJQQAAAACAAAAAAAQZgAAAAEAACAAAABNLHFxJzLsiJwddtbpfxv+hD3aIwhhc2lhnMrXKXgxvAAAAAAOgAAAAAIAACAAAAC2Q17U5SpqKfcjEdZLJySi3Z2PucLAZUQ2VODJtfy+vWAAAABTLr+mgHokVtXmun34PIandBTKDgbqmC7+OSyrGHj2Pc5JZzRVwnWqWJrviICE59V+SYNSc9ofrWhPj8265iJuLRyB3nBN0bBJ+EjlsFSvIu/YuiDFP0aBFHucHnHdBQxAAAAANkzloqwh8hRqEV/35y+qwXFMQgr/3MyJ5VKuN56Ok4S9nlqnqpyKxL77bSJidai5RSIONM8UCIDOFWeebShgtg==
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+GOPATH=C:\Users\ishan\go
+IntelliJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;
+COLORTERM=truecolor
+USERDOMAIN=ISHANAVASTHI
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ishan\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-20\bin;C:\YT-DLP;C:\Program Files\Go\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ishan\AppData\Local\Microsoft\WindowsApps;C:\Users\ishan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ishan\AppData\Local\JetBrains\Toolbox\scripts;;C:\Program Files\JetBrains\WebStorm 2023.3\bin;;C:\Users\ishan\go\bin;C:\Program Files\JetBrains\GoLand 2023.3.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Users\ishan\AppData\Roaming\npm
+PROCESSOR_LEVEL=6
+NUMBER_OF_PROCESSORS=16
+TMPDIR=C:\Users\ishan\AppData\Local\Temp
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+EFC_11080=1
+GoLand=C:\Program Files\JetBrains\GoLand 2023.3.2\bin;
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+MSYS=disable_pcon
+ProgramFiles=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+HOME=C:\Users\ishan
+LC_CTYPE=C.UTF-8
+CommonProgramW6432=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+LOGONSERVER=\\ISHANAVASTHI
+USERPROFILE=C:\Users\ishan
+SystemRoot=C:\Windows
+USERDOMAIN_ROAMINGPROFILE=ISHANAVASTHI
+APPDATA=C:\Users\ishan\AppData\Roaming
+HOMEDRIVE=C:
+VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+USERNAME=ishan
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\Windows\system32\cmd.exe
+SystemDrive=C:
+windir=C:\Windows
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\ishan\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\ishan\AppData\Local\Temp\10814c04bad89e4f9fd3e886'... OK
+Reading from temporary file 'C:\Users\ishan\AppData\Local\Temp\10814c04bad89e4f9fd3e886'... OK
+Deleting temporary file 'C:\Users\ishan\AppData\Local\Temp\10814c04bad89e4f9fd3e886'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\ishan
+UserDataDirectoryPath: C:\Users\ishan\.gcm
+GetCurrentDirectory(): C:\Users\ishan\OneDrive\Documents\Code\dev\classes\sst-classes
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:50710/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.45.1.windows.1'
+Locating current repository...Git repository at 'C:/Users/ishan/OneDrive/Documents/Code/dev/classes/sst-classes/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/ishan/.gitconfig	core.editor="C:\Users\ishan\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+file:C:/Users/ishan/.gitconfig	user.name=Ishan
+file:C:/Users/ishan/.gitconfig	user.email=avasthi@flash.co
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/IAvasthi/react-classes.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\ishan\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\ishan\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
